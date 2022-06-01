@@ -4,4 +4,4 @@ str = ''
 while ascii != 123:
     str = str + chr(ascii)
     ascii = ascii + 1
-print(str)
+print("{}".format(str))
