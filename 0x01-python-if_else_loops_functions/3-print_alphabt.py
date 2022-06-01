@@ -5,4 +5,4 @@ str = ''
 for i in range(97, 123):
     if i != 113 and i != 101:
         str = str + chr(i)
-print("{}".format(str))
+print("{}".format(str), end="")
