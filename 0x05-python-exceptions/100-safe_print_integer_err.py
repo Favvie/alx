@@ -3,6 +3,7 @@ import sys
 
 from inspect import Arguments
 
+
 def safe_print_integer_err(value):
     val_is_integer = True
     try:
